@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;   
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* margin: 30px 30px 0px 30px; */
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 0 0 1px black;
+}
+
+#header {
+    background-image: url('https://images.unsplash.com/photo-1619046339188-7256ecfb2185?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    justify-content: flex-end;
+}
+
+#header h1 {
+    background: #333333;
+    border-radius: 10%;
+    font-size: 50px;
+}
+
+
+.foods-div {
+    display: grid;
+    /* flex-direction: row; */
+    background: #8aa29e;
+    margin-top: 0px;
+    padding-bottom: 100px;
+}
+
+.foods-div h1 {
+    background:#8aa29e;
+}
+
+.food-div-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.food-div-food {
+    margin: 10px;
+}
+
+.foods-div img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.foods-div img:hover {
+    transform: scale(1.2);
+}
+
+
+.your-guide {
+    background: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.your-guide-box {
+    display: flex;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #333333;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.your-guide img {
+    padding: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.your-guide-text {
+    padding-left: 20px;
+}
+
+
+.footer {
+    height: 30px;
+    background: #8aa29e;
+    color: white;
+    padding: 25px;
+}
+
+a {
+    color: navy;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: lightblue;
+}
